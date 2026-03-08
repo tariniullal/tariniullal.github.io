@@ -27,9 +27,7 @@ function App() {
         </p>
         <p className="body-text">
           I am particularly interested in the diagnosis and management of immune-mediated and
-          copper-associated chronic hepatitis in dogs, esophageal and swallowing disorders, and
-          the development of tools to assess healthspan and frailty in companion animals as models
-          for geroscience.
+          copper-associated chronic hepatitis in dogs, and esophageal and swallowing disorders.
         </p>
       </section>
 
@@ -99,16 +97,6 @@ function App() {
 
         <div className="entry">
           <p className="pub-title">
-            Evaluating Instruments for Assessing Healthspan: A Multi-Center Cross-Sectional Study
-            on Health-Related Quality of Life and Frailty in the Companion Dog
-          </p>
-          <p className="pub-meta">
-            Ullal TV, et al. <em>Frontiers in Veterinary Science.</em> 2022.
-          </p>
-        </div>
-
-        <div className="entry">
-          <p className="pub-title">
             High-Resolution Manometric Evaluation of the Effects of Cisapride on the Esophagus
             During Administration of Solid and Liquid Boluses in Awake Healthy Dogs
           </p>
@@ -139,7 +127,7 @@ function App() {
           <ul className="entry-description">
             <li>Small Animal Internal Medicine Service, William R. Pritchard VMTH</li>
             <li>Active clinical trials in megaesophagus and swallowing disorders</li>
-            <li>Research in canine chronic hepatitis, GI disease, and frailty geroscience</li>
+            <li>Research in canine chronic hepatitis and GI disease</li>
           </ul>
         </div>
 
