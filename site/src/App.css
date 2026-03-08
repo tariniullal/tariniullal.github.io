@@ -1,0 +1,173 @@
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 120px 24px 80px;
+}
+
+a {
+    color: #111;
+    text-decoration-color: #bbb;
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.2s;
+}
+
+a:hover {
+    text-decoration-color: #111;
+}
+
+/* --- Hero --- */
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.headshot {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+}
+
+.tagline {
+    margin-top: 8px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #666;
+    letter-spacing: 0.02em;
+}
+
+/* --- Section headings --- */
+
+h2 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #999;
+    margin-bottom: 24px;
+}
+
+/* --- Experience & Education entries --- */
+
+.experience,
+.education {
+    margin-bottom: 56px;
+}
+
+.entry {
+    margin-bottom: 28px;
+}
+
+.entry:last-child {
+    margin-bottom: 0;
+}
+
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.entry-title {
+    font-size: 1rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.entry-logo {
+    height: 20px;
+    width: auto;
+    object-fit: contain;
+}
+
+.entry-date {
+    font-size: 0.85rem;
+    color: #999;
+    font-weight: 400;
+    white-space: nowrap;
+    margin-left: 16px;
+}
+
+.entry-role {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 2px;
+}
+
+.entry-date-inline {
+    font-size: 0.8rem;
+    color: #999;
+    font-weight: 400;
+}
+
+.entry-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 4px;
+    line-height: 1.6;
+}
+
+ul.entry-description {
+    padding-left: 20px;
+    margin: 4px 0 0 0;
+}
+
+ul.entry-description li {
+    margin-bottom: 4px;
+}
+
+/* --- Footer links --- */
+
+.links {
+    padding-top: 32px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.links a {
+    font-weight: 400;
+}
+
+.separator {
+    margin: 0 12px;
+    color: #ccc;
+}
+
+/* --- Responsive --- */
+
+@media (max-width: 480px) {
+    html {
+        font-size: 16px;
+    }
+
+    main {
+        padding: 80px 20px 60px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .entry-header {
+        flex-direction: column;
+    }
+
+    .entry-date {
+        margin-left: 0;
+        margin-top: 2px;
+    }
+}
