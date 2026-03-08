@@ -191,13 +191,10 @@ function App() {
 
           <div className="entry">
             <div className="entry-header">
-              <span className="entry-title">MS, Veterinary Medicine</span>
+              <span className="entry-title">MS, Clinical Science</span>
               <span className="entry-date">2022 &ndash; 2024</span>
             </div>
-            <div className="entry-role">University of California, Davis</div>
-            <p className="entry-description">
-              Graduate research in small animal gastroenterology and hepatology
-            </p>
+            <div className="entry-role">Colorado State University, College of Veterinary Medicine &amp; Biomedical Sciences</div>
           </div>
 
           <div className="entry">
@@ -209,8 +206,10 @@ function App() {
 
           <div className="entry">
             <div className="entry-header">
-              <span className="entry-title">BA — Bachelor of Arts</span>
+              <span className="entry-title">BA, Integrative Biology</span>
+              <span className="entry-date">2011</span>
             </div>
+            <div className="entry-role">University of California, Berkeley</div>
           </div>
         </section>
 
