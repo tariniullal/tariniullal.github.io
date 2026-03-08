@@ -39,12 +39,20 @@ h1 {
     line-height: 1.2;
 }
 
+.credentials {
+    margin-top: 6px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #555;
+    letter-spacing: 0.01em;
+}
+
 .tagline {
-    margin-top: 8px;
-    font-size: 1.1rem;
+    margin-top: 4px;
+    font-size: 0.95rem;
     font-weight: 300;
-    color: #666;
-    letter-spacing: 0.02em;
+    color: #777;
+    letter-spacing: 0.01em;
 }
 
 /* --- Section headings --- */
@@ -56,6 +64,45 @@ h2 {
     letter-spacing: 0.1em;
     color: #999;
     margin-bottom: 24px;
+}
+
+/* --- About --- */
+
+.about {
+    margin-bottom: 56px;
+}
+
+.body-text {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 12px;
+}
+
+/* --- Publications --- */
+
+.publications {
+    margin-bottom: 56px;
+}
+
+.pub-title {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #111;
+    line-height: 1.5;
+}
+
+.pub-meta {
+    font-size: 0.85rem;
+    color: #777;
+    margin-top: 2px;
+    line-height: 1.5;
+}
+
+.pub-more {
+    font-size: 0.85rem;
+    margin-top: 20px;
+    color: #999;
 }
 
 /* --- Experience & Education entries --- */
